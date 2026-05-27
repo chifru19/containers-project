@@ -1,0 +1,18 @@
+--- EVIDENCE LOG: Wed May 27 17:49:23 EDT 2026 ---
+### 1. Container Registry State
+us.icr.io/sn-labs-chifru19/myapp                                         v1                                                                            60de164e93c8   sn-labs-chifru19   1 hour ago       350 MB   -
+us.icr.io/sn-labs-chifru19/myapp                                         v2                                                                            75717d350888   sn-labs-chifru19   21 minutes ago   350 MB   -
+
+### 2. Pod Image Verification
+NAME                     IMAGE
+myapp-7879b94bf9-tttc7   us.icr.io/sn-labs-chifru19/myapp:v2
+myapp-daemonset-8pxps    us.icr.io/sn-labs-chifru19/myapp:v2
+myapp-daemonset-c65fp    us.icr.io/sn-labs-chifru19/myapp:v2
+myapp-daemonset-ghbxc    us.icr.io/sn-labs-chifru19/myapp:v2
+myapp-daemonset-gvmvn    us.icr.io/sn-labs-chifru19/myapp:v2
+myapp-daemonset-hbdqs    us.icr.io/sn-labs-chifru19/myapp:v2
+myapp-daemonset-pf4bt    us.icr.io/sn-labs-chifru19/myapp:v2
+
+### 3. Rollout Status
+deployment "myapp" successfully rolled out
+daemon set "myapp-daemonset" successfully rolled out
